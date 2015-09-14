@@ -1,0 +1,36 @@
+.page-content {
+  z-index: -1;
+  .sidebar-container {
+    position: fixed;
+    top: 51px;
+    left: 10px;
+    bottom: 10;
+    width: 400px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    .content{
+      margin-left: 20px;
+      border-radius: 0;
+      padding: 20px;
+    }
+  }
+  .main-content-container {
+    position: fixed;
+    right: 0px;
+    top: 51px;
+    left: 410px;
+    bottom: 10px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    border-left: 0px;
+
+    .content{
+      margin-right: 20px;
+      border-radius: 0;
+      padding: 20px;
+    }
+    overflow-y: scroll;
+  }
+}
